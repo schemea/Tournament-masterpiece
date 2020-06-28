@@ -2,7 +2,7 @@ import { Action, createReducer, on, createFeatureSelector, createSelector } from
 import * as LoginPageActions from '../actions/login-page.actions'
 import {Tournament} from '../pages/tournaments/tournament'
 import { User } from '../pages/users/user';
-export const loginPageFeatureKey = 'loginPage';
+export const currentUserFeatureKey = 'currentUser';
 
 export interface ApplicationState {
   currentlyLoading: boolean;
@@ -23,12 +23,12 @@ export const initialState: ApplicationState = {
   tournamentList:[],
   userList:[]
 };
-const selectUserState = createFeatureSelector<ApplicationState>("currentUser");
+const selectUserState = createFeatureSelector<ApplicationState>(currentUserFeatureKey);
 export const userSelector = createSelector(selectUserState,(state: ApplicationState) => state);
 
 const loginPageReducer = createReducer(
   initialState,
-  on(LoginPageActions.login, 
+  on(LoginPageActions.login,
     (state, {username, role}) => ({...state, username, role})
   ))
 
