@@ -1,4 +1,8 @@
-FROM node:alpine
+FROM node:13
+
+RUN pwd
+
+WORKDIR /app
 
 ENV NODE_ENV development
 
@@ -7,6 +11,6 @@ COPY package-lock.json .
 
 RUN npm ci
 
-COPY . .
+COPY src src
 
 ENTRYPOINT npx ts-node src/index.ts

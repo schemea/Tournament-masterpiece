@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dece2676-fa22-4798-b10f-db21de6aaa5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kube/manifest.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kube/manifest.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,19 +12,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="do-fra1-main" />
+    <option name="namespace" value="default" />
+  </component>
   <component name="ProjectId" id="1bAoS4Kvdq4L44Y9gqMjvjTS394" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PUML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../auth" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="L:\scoop\apps\webstorm\current\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -35,22 +44,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588084255403</updated>
+      <workItem from="1604674652060" duration="16563000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1591090755207">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="718" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604722628976">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.-212.1920.1040@0.0.1536.824" timestamp="1591090755207" />
-    <state x="277" y="55" key="SettingsEditor" timestamp="1588085304924">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="718" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604722628976" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1604867506544">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="277" y="55" key="SettingsEditor/0.0.1536.824/1920.102.1920.1040@0.0.1536.824" timestamp="1588085304924" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1591083936729">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604867506544" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1604867506544">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.-212.1920.1040@0.0.1536.824" timestamp="1591083936729" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.102.1920.1040@0.0.1536.824" timestamp="1588085530518" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604867506544" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1604867506544">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604867506544" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1604867506544">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604867506544" />
   </component>
 </project>
